@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+    <style>
+        body {
+            background-image: url("images/snow-hill.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            font-family:Arial, Helvetica, sans-serif;
+            overflow:auto;
+        }
+
+        div {
+            min-height:150px;
+            width: 80%;
+            border: 3px solid gold;
+            margin: 10px auto;
+            color:rgb(24, 24, 236);
+            background-color: rgba(0, 0, 0, .7);
+            overflow:auto;
+
+         }
+         img{
+             width:35%;
+         }
+        h1{
+            font-weight:bold;
+            text-align: center;
+        }
+        h2{
+            font-weight:bold;
+            text-align:center;
+        }
+    </style>
+</head>
+
+<body>
+    <div><h1>Images</h1></div>
+    <div style="background-image:url('images/phone.jpg');">
+        <h2>Background Image</h2>
+    </div>
+    <div>
+        <h2>No float</h2>
+        <p><img src="images/laptop.jpg" alt="Laptop">
+        This is the text that is belonging
+        to the No Float square.</p>
+    </div>
+    <div>
+        <h2>Float left</h2>
+        <p><img src="images/basketball.jpg" alt="basketball that
+        resembles being on the left side of the square."
+        style="float:left"> The basketball picture resembles the float
+        that is on the left side of the square. </p>
+    </div>
+    <div>
+        <h2>Float Right</h2>
+        <p><img src="images/target.jpg" alt="A target board to shoot arrows at."
+        style="float:right"> The arrow board sits perfectly on the right side of the
+        square to go along with floating to the right side. </p>
+    </div>
+    <div>
+        <h2>Image as Link</h2>
+        <a href="http://www.google.com"><img src="images/bunny.jpg" alt="A bunny leading you to google"></a>
+    </div>
+    <div>
+        <h2>External image source</h2>
+        <img src= "https://blog.mozilla.org/firefox/files/2017/03/firefox_logo-only_RGB-300dpi.jpg" alt="The original Firefox logo">
+    </div>
+</body>
+</html>
